@@ -1,0 +1,8 @@
+node_modules/
+report/report.html
+report/diff/*.png
+image/actual/*.png
+image/expected/*.png
+reg.json
+.DS_Store
+websites.json

@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "reg": "node src/scraping.js && yarn reg-cli ./image/actual ./image/expected ./report/diff -R ./report/report.html"
+  },
+  "dependencies": {
+    "puppeteer": "^10.4.0",
+    "reg-cli": "^0.17.3"
+  }
+}
